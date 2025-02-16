@@ -4,10 +4,14 @@
     border: 0%;
 }
 
+body {
+    background-image: url('images/background.webp');
+}
+
 header {
-    background: blueviolet;
+    background: rgb(13, 91, 117);
     padding: 40px 0;
-    border-bottom: 3px solid azure;
+
 }
 
 .container {
@@ -17,7 +21,13 @@ header {
 
 h1 {
     float: left;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+p {
+    margin: 15px;
+    line-height: 140%;
 }
 
 nav {
@@ -25,25 +35,60 @@ nav {
 }
 
 nav a {
-    color: azure;
-    font-family: sans-serif;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     margin-right: 20px;
     text-decoration: none;
 }
 
 main {
-    background-color: azure;
+    background-color: rgb(95, 172, 198);
     float: left;
     width: 70%;
+    padding: 20px;
+    color: white
 }
 
 aside {
-    background-color: blueviolet;
+    background-color: rgb(95, 172, 198);
     float: right;
     width: 20%;
+    padding: 20px;
+    color: white;
 }
 
 footer {
     clear: both;
+}
+
+.main-content {
+    margin: 40px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+    width: 25px;
+    margin: 9px 9px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: rgb(13, 91, 117);
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
 }
