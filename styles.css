@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+header {
+    background: blueviolet;
+    padding: 40px 0;
+    border-bottom: 3px solid azure;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+
+}
+
+nav {
+    float: right;
+}
+
+nav a {
+    color: azure;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main {
+    background-color: azure;
+    float: left;
+    width: 70%;
+}
+
+aside {
+    background-color: blueviolet;
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
